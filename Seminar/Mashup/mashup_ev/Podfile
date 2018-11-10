@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'mashup_ev' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'SnapKit', '~> 4.0.0'
+  # ~ 여러개 호환 , - 해당 버전만 
+  # Pods for mashup_ev
+
+end
+
+# pod file lock
+# 같은 프로젝트를 사용하게끔 해준다.
+# pod update를 하면 podfile.lock 버전이 올라가고 다른 사람들이 사용하면 된다.
